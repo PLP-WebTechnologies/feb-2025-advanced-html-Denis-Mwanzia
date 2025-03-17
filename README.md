@@ -1,3 +1,4 @@
+
 # Advanced HTML5 Elements and Forms
 
 ## Objectives
@@ -26,3 +27,6 @@ Apply multimedia elements such as audio and video.
 - Ensure semantic correctness.
 
 Happy Coding! 💻✨
+
+# Music App
+- I will complete the assignment by utilizing music web application scenario to implement all of the above html elements using a well structured HTML5 document while maintaining its semantic correctness.

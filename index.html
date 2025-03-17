@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denis Mwanzia Munyoki">
+    <meta name="description" content="Implementing assignment two using music app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Music App</h1>
+        <p>Your ultimate destination for music streaming and management.</p>
+    </header>
+    <!-- Main Content Section -->
+    <main>
+        <!-- Features Section -->
+        <section>
+            <h2>Features of the Music App</h2>
+            <ol type="I">
+                <li>Stream & Play Music</li>
+                <li>Create & Share Playlists</li>
+                <li>Download Your Favorite Songs</li>
+                <li>Discover New Music Daily</li>
+            </ol>
+        </section>
+        <!-- Image Section -->
+        <section>
+            <h2>Explore New Music</h2>
+            <figure>
+                <img src="./img/music.jpg" alt="Person Listening to Music" width="1350">
+                <figcaption>Discover Music That Moves You</figcaption>
+            </figure>
+        </section>
+        <!-- Registration Form Section -->
+        <section>
+            <h2>Create Your Music Account</h2>
+            <form action="#" method="POST">
+                <!-- User Details -->
+                <fieldset>
+                    <legend>
+                        <h3>Registration Form</h3>
+                    </legend>
+                    <div class="fullName">
+                        <label for="name">Full Name:</label> <br>
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label> <br>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="genre">
+                        <label for="genre">Favorite Genre:</label> <br>
+                        <select id="genre" name="genre" required>
+                            <option value="" disabled selected>Select Genre</option>
+                            <option value="pop">Pop</option>
+                            <option value="rock">Rock</option>
+                            <option value="jazz">Jazz</option>
+                            <option value="hiphop">Hip-Hop</option>
+                            <option value="classical">Classical</option>
+                        </select>
+                    </div>
+                    <div class="subscription">
+                        <label>Subscription Plan:</label><br>
+                        <label><input type="radio" name="plan" value="free" required> Free</label><br>
+                        <label><input type="radio" name="plan" value="basic"> Basic</label><br>
+                        <label><input type="radio" name="plan" value="silver"> Silver</label><br>
+                        <label><input type="radio" name="plan" value="gold"> Gold</label>
+                    </div>
+                    <div class="interest">
+                        <label>Choose Your Interests:</label><br>
+                        <label><input type="checkbox" name="interests" value="podcasts"> Podcasts</label><br>
+                        <label><input type="checkbox" name="interests" value="live-concerts"> Live Concerts</label><br>
+                        <label><input type="checkbox" name="interests" value="playlists"> Playlists</label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <!-- Multimedia Section -->
+        <section>
+            <h2>Enjoy Our Latest Media</h2>
+
+            <!-- Video Player -->
+            <article>
+                <h3>Watch Nature Exploration Video</h3>
+                <video width="500" controls>
+                    <source src="./music/exploreNature.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </article>
+        </section>
+
+        <!-- Audio Player -->
+        <article>
+            <h3>Listen to Sample Music</h3>
+            <audio controls>
+                <source src="./music/somethingJustLikeThis.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </article>
+    </main>
+    <!-- Footer Section -->
+    <!-- Contact Table Section -->
+    <section>
+        <h2>Contact Our Team</h2>
+        <table border="1">
+            <caption>Support Team Contacts</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Denis Mwanzia</td>
+                    <td>denismwanzia1@example.com</td>
+                </tr>
+                <tr>
+                    <td>Denis Munyoki</td>
+                    <td>dmunyoki58@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2025 Music App. All rights reserved. | Designed for Music Lovers By Denis Mwanzia</p>
+    </footer>
+</body>
+
+</html>
